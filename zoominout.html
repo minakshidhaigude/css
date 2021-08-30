@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            font-size: 20px;
+            margin-left: 100px;
+            margin-top: 150px;
+            text-align: center;
+        }
+        p span{
+            color: tomato;
+        }
+        .box{
+            width: 400px;
+            border: 2px solid green;
+            margin: 10px auto;
+            position: relative;
+            overflow: hidden;
+        }
+        .box img{
+            width: 100%;
+            height: auto;
+            transition: all 0.4s;
+        }
+        .box:hover img{
+            transform: scale(0);
+        }
+        .box .box-content{
+            text-align: center;
+            background-color: magenta;
+            color: white;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            transform: scale(0) rotate(-180deg);
+            transition: all 0.4s;
+        }
+        .box:hover .box-content{
+            transform: scale(1);
+            transition-delay: 0.2s;
+        }
+    </style>
+</head>
+<body>
+    <p><span>Minakshi dhaigude</span> <br> I am begineer in css </p>
+    <div class="box">
+        <img src="images/gal.jpg" alt="">
+        <div class="box-content">
+            <h3>image hover</h3>
+            <p>I am practising on css after some time I will become UI developer.I have the hands-on HTML5,CSS3.JAVSCRIPT AND I am learniing all these languages from the scratch</p>
+        </div>
+    </div>
+</body>
+</html>

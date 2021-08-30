@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            border: 1px solid maroon;
+        }
+        #box1{
+         background-color: darkseagreen;
+         top: 100px;
+         left: 50px;
+         z-index: 1;
+         
+        }
+        #box2{
+          background-color: peachpuff;
+          top: 150px;
+          left: 100px;
+          z-index: -2;
+        }
+        #box3{
+          background-color: lightskyblue;
+          top: 200px;
+          left: 150px;
+          z-index: 3;
+        }
+        #box4{
+            background-color:pink;
+            top: 250px;
+            left: 200px;
+            z-index: -4;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1">A</div>
+    <div id="box2">B</div>
+    <div id="box3">C</div>
+    <div id="box4">D</div>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: slategray;
+            padding: 0;
+            margin: 0;
+        }
+        #wrapper{
+            border: 1px solid rebeccapurple;
+            width: 1000px;
+            background-color:white;
+            margin: 0 auto;
+        }
+        #header{
+            background-color: crimson;
+            color: white;
+            height: 100px;
+        }
+        #header h1{
+            padding: 20px 30px;
+        }
+        #menu{
+            background-color: lightsalmon;
+        }
+        #menu ul{
+          margin: 0;
+          padding: 0;
+        }
+        #menu li{
+            display: inline-block;
+        }
+        #menu li a{
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: black;
+        }
+        #menu li a:hover{
+            background-color: yellowgreen;
+            color: white;
+        }
+        #content{
+            width: 800px;
+            min-height: 350px;
+            padding: 10px;
+            float: left;
+            box-sizing: border-box;
+        }
+        #sidebar{
+            width: 200px;
+            min-height: 350px;
+            float: right;
+            background-color: lightblue;
+        }
+        #sidebar a{
+            text-decoration: none;
+            color: black;
+        }
+        #footer{
+            background-color: lightsalmon;
+            padding: 5px 10px;
+            text-align: right;
+            clear: both;
+        }
+        @media screen and (max-width:1020px) {
+          #wrapper{
+              width: 800px;
+          }
+          #content{
+              width: 80%;
+          }
+          #sidebar{
+              width: 18%;
+          }
+        }
+        @media screen and (max-width:810px) {
+          #wrapper{
+              width: 500px;
+          }
+          #content{
+              width: 65%;
+          }
+          #sidebar{
+              width: 34%;
+          }
+        }
+        @media screen and (max-width:510px) {
+          #wrapper{
+              width: auto;
+          }
+          #content{
+              width: 100%;
+              float: none;
+          }
+          #sidebar{
+              width: 100%;
+              float: none;
+          }
+          #header h1{
+            padding: 20px ;
+            text-align: center;
+        }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Minakshi Dhaigude</h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About_Us</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <h2>Design Basic Layout</h2>
+            <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            </p>
+            <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+            </p>
+            <p>fsbfeh fywtukghh vnfhf duuhgh fhfg hffhff uwwryrtyii vbmxskuryf fhdhhfh</p>
+             <p>qwrtr cvfh fdudid uehirh bvdbhsdh bhfdii bnfhg furytt dhsjjf wiweiru</p>
+        </div>
+        <div id="sidebar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About_Us</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div id="footer">
+            minakshidhaigudecopyright@2021
+        </div>
+    </div>
+</body>
+</html>
